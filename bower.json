@@ -1,0 +1,21 @@
+{
+  "name": "flex-grid",
+  "authors": [
+    "Bryan Robinson <bryanlrobinson@gmail.com>"
+  ],
+  "description": "A modular non-grid for Flexbox",
+  "main": "",
+  "keywords": [
+    "scss",
+    "flex"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
