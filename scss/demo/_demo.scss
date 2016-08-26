@@ -1,0 +1,25 @@
+// Demo Styles
+
+.grid__container {
+    @include grid-container(950px);
+    background: bisque;
+
+    .grid__item {
+        @include block-flex(1);
+        background-color: coral;
+    }
+}
+
+
+
+
+.grid__container--2 {
+    @include grid-container(500px);
+    background: bisque;
+    justify-content: space-around;
+
+    .grid__item {
+        @include block-width(200px);
+        background: coral;
+    }
+}

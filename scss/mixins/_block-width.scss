@@ -1,0 +1,8 @@
+@mixin block-width($width) {
+  flex-basis: $width;
+  width: $width;
+
+  @include block-meta($gutter);
+}
+
+  

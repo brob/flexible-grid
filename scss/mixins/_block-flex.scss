@@ -1,0 +1,6 @@
+@mixin block-flex($flex-value: 1, $flex-basis: auto) {
+  flex: $flex-value $flex-value $flex-basis;
+  flex-basis: $flex-basis;
+
+  @include block-meta($gutter);
+}

@@ -1,0 +1,9 @@
+@mixin block-meta($gutter: $gutter) {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-right: $gutter/2;
+  padding-left: $gutter/2;
+  padding-bottom: $gutter;
+}

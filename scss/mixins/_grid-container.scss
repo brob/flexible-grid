@@ -1,0 +1,10 @@
+// Container Mixin
+@mixin grid-container($width: $grid-container-width, $gutter: $gutter) {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+
+  max-width: $width;
+  margin: 0 auto;
+  padding: 0 $gutter/2;
+}
