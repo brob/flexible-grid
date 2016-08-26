@@ -1,7 +1,9 @@
 {
   "name": "flex-grid",
   "authors": [
-    "Bryan Robinson <bryanlrobinson@gmail.com>"
+    "Bryan Robinson <bryanlrobinson@gmail.com>",
+    "Ryan Filler",
+    "Josh Bryant"
   ],
   "description": "A modular non-grid for Flexbox",
   "main": "",
