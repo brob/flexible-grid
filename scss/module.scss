@@ -1,11 +1,10 @@
-@import './demo/defaults';
+@import './demo/defaults'; // Reset to your own defaults
+
 
 @import './mixins/grid-container';
-
 @import './mixins/block-meta';
 @import './mixins/block-flex';
 @import './mixins/block-width';
 
 
-//demo specific styles
-@import './demo/demo';
+@import './demo/demo'; //demo specific styles
