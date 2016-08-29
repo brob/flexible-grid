@@ -1,12 +1,18 @@
 // Demo Styles
 
 .grid__container {
-    @include grid-container(950px);
+    @include grid-container(80%);
     background: bisque;
 
     .grid__item {
-        @include block-flex(1);
-        background-color: coral;
+        @include block-flex(1, $bottom-gutter: true);
+        @include grid-container(100%);
+        justify-content: space-around;
+
+        .block {
+
+            background-color: coral;
+        }
     }
 }
 
